@@ -1,3 +1,8 @@
+if queue_on_teleport then
+    queue_on_teleport([[
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/sevastianjimenez66-spec/brainrot-server/main/serverhop.lua"))()
+    ]])
+end
 local TeleportService = game:GetService("TeleportService")
 local PlaceID = game.PlaceId
 
